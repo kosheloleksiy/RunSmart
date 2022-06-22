@@ -1,0 +1,45 @@
+.benefit {
+    min-height: 475px;
+    padding: 45px 0 55px 0;
+    &__title {
+        display: block;
+        text-align: center;
+        font-size: 30px; 
+        text-transform: uppercase;
+    }
+    &__icons {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        background-color: #ffffff;
+        h2 {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            margin-top: 75px;
+        }
+        div {
+            .icon {
+                margin-top: 30px;
+                font-size: 14px;
+                line-height: 1.2;
+                text-align: center;
+                width: 243px;
+                height: 65px;
+                span {
+                    color: $main-color;
+                }     
+            }
+            
+        }
+    
+    }
+}
+    

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+  }
+
+@import 'base/variables';
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl.eot');
+    src: url('../fonts/MuseoSansCyrl.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl.ttf') format('truetype');
+    /* font-weight: normal;
+    font-style: normal; */
+    }
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/benefit';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/media';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/feed';
+@import 'blocks/footer';
+   
